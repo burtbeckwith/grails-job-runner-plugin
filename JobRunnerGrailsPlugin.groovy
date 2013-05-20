@@ -5,12 +5,12 @@ class JobRunnerGrailsPlugin {
     def grailsVersion = "2.2 > *"
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
-        "grails-app/views/error.gsp"
+            "grails-app/services/job/runner/tests",
     ]
 
     // TODO Fill in these fields
     def title = "Job Runner Plugin" // Headline display name of the plugin
-    def author = "Your name"
+    def author = "Tommy Barker"
     def authorEmail = ""
     def description = '''\
 Brief summary/description of the plugin.

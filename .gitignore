@@ -1,2 +1,7 @@
+target/classes
+out
 *.iml
 .idea
+target/stacktrace.log
+target/test-classes
+web-app/WEB-INF/tld/*
