@@ -5,7 +5,7 @@ class JobRunnerGrailsPlugin {
             "grails-app/services/job/runner/tests/*",
     ]
 
-    def title = "Job Runner Plugin" // Headline display name of the plugin
+    def title = "Job Runner Plugin"
     def author = "Tommy Barker"
     def authorEmail = "mingus.karate@gmail.com"
     def description = "Allows running any bean with an execute method on the command line while maintaining transactions and service injection"

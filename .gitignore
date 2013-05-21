@@ -1,8 +1,8 @@
-target/classes
+target
 out
 *.iml
 .idea
 target
-web-app/WEB-INF/tld/*
+web-app
 plugin.xml
 *.zip*
