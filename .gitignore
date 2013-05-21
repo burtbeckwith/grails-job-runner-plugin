@@ -4,3 +4,5 @@ out
 .idea
 target
 web-app/WEB-INF/tld/*
+plugin.xml
+*.zip*
