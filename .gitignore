@@ -2,6 +2,5 @@ target/classes
 out
 *.iml
 .idea
-target/stacktrace.log
-target/test-classes
+target
 web-app/WEB-INF/tld/*
