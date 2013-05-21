@@ -1,7 +1,9 @@
 grails-job-runner-plugin
 ========================
 
-Intended to be a simple replacement for the batch-runner plugin that can run any service which has an 'execute' method.  This plugin was built to deal with my frustrations over running command line jobs in grails.  The batch plugin used to do this, but no longer works in Grails 2.2.
+Intended to be a simple replacement for the batch-runner plugin that can run any service which has an 'execute' method.
+This plugin was built to deal with my frustrations over running command line jobs in grails.  The batch plugin used to
+do this, but no longer works in Grails 2.2.
 
 Download
 --------
@@ -10,10 +12,15 @@ Download
 
 add `compile(":job-runner:0.1")` to BuildConfig.groovy
 
+or clone the repository and run `grails maven-install` and make sure any application or plugin referencing it has a
+repository reference to `mavenLocal()`
+
 Basic Usage
 -----------
 
-This plugins allows you to run any bean that is accessible in the ApplicationContext which has a no argument `execute()` method.  To use it, simply give the name of stored bean in the ApplicationContext.  Assuming you have the service foo:
+This plugins allows you to run any bean that is accessible in the ApplicationContext which has a no argument
+`execute()` method.  To use it, simply give the name of stored bean in the ApplicationContext.  Assuming you have the
+service foo:
 
 ```groovy
 class FooService {
@@ -32,7 +39,8 @@ $ grails run-job foo
 
 (Note: we are logging at the error level to make sure the log message is not ignored)
 
-The plugin also detects if the application is running locally (aka `run-app`), and will use that ApplicationContext instead of bootstrapping a headless application.
+The plugin also detects if the application is running locally (aka `run-app`), and will use that ApplicationContext
+instead of bootstrapping a headless application.
 
 Advanced Usage
 --------------

@@ -23,7 +23,7 @@ grails.project.dependency.resolution = {
             exclude "spock-grails-support"
         }
         build(":tomcat:$grailsVersion",
-                ":release:2.2.0",
+                ":release:2.2.1",
                 ":rest-client-builder:1.0.3") {
             export = false
         }

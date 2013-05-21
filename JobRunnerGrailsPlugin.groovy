@@ -1,22 +1,17 @@
 class JobRunnerGrailsPlugin {
-    // the plugin version
     def version = "0.1"
-    // the version or versions of Grails the plugin is designed for
     def grailsVersion = "2.2 > *"
-    // resources that are excluded from plugin packaging
     def pluginExcludes = [
             "grails-app/services/job/runner/tests",
     ]
 
-    // TODO Fill in these fields
     def title = "Job Runner Plugin" // Headline display name of the plugin
     def author = "Tommy Barker"
     def authorEmail = "mingus.karate@gmail.com"
-    def description = '''\
-Brief summary/description of the plugin.
-'''
-
-    // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/job-runner"
-
+    def description = "Allows running any bean with an execute method on the command line while maintaining transactions and service injection"
+    def organization = [ name: "University of Pennsylvania Libraries", url: "https://github.com/upenn-libraries" ]
+    def developers = [ [ name: "Tommy Barker", email: "mingus.karate@gmail.com" ] ]
+    def issueManagement = [ system: "GitHub", url: "https://github.com/upenn-libraries/grails-job-runner-plugin/issues" ]
+    def documentation = "https://github.com/upenn-libraries/grails-job-runner-plugin"
+    def scm = [ url: "https://github.com/upenn-libraries/grails-job-runner-plugin" ]
 }
