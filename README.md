@@ -3,7 +3,7 @@ grails-job-runner-plugin
 
 Intended to be a simple replacement for the batch-runner plugin that can run any service which has an 'execute' method.
 This plugin was built to deal with my frustrations over running command line jobs in grails.  The batch plugin used to
-do this, but no longer works in Grails 2.2.
+do this, but no longer works in Grails 2.2.  While running a service, all features in grails will be used (transactions, injection, etc.)
 
 Download
 --------
