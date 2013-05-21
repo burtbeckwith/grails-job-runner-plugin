@@ -2,7 +2,7 @@ class JobRunnerGrailsPlugin {
     def version = "0.1"
     def grailsVersion = "2.2 > *"
     def pluginExcludes = [
-            "grails-app/services/job/runner/tests",
+            "grails-app/services/job/runner/tests/*",
     ]
 
     def title = "Job Runner Plugin" // Headline display name of the plugin
