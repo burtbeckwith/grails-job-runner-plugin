@@ -7,6 +7,7 @@ Download
 ========
 
 (Note: this will not work yet until it is accepted by grails.org)
+
 add `compile(":job-runner:0.1")` to BuildConfig.groovy
 
 Basic Usage
